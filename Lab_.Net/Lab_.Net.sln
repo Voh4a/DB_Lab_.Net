@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_.Net", "Lab_.Net\Lab_.Net.csproj", "{2009CC79-653A-45CF-9E66-941338D83422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBContex", "DBContex\DBContex.csproj", "{14A8E11E-0616-4B74-A596-DA5105FA2526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2009CC79-653A-45CF-9E66-941338D83422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2009CC79-653A-45CF-9E66-941338D83422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2009CC79-653A-45CF-9E66-941338D83422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2009CC79-653A-45CF-9E66-941338D83422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A8E11E-0616-4B74-A596-DA5105FA2526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A8E11E-0616-4B74-A596-DA5105FA2526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A8E11E-0616-4B74-A596-DA5105FA2526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A8E11E-0616-4B74-A596-DA5105FA2526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6CD67C7-2625-43C0-B0FF-38FDC486E2A6}
+	EndGlobalSection
+EndGlobal

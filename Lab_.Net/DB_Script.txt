@@ -1,0 +1,48 @@
+create table Movie(
+	mID int AUTO_INCREMENT PRIMARY KEY, 
+	title text, 
+	year int, 
+	director text);
+
+create table Reviewer(
+	rID int AUTO_INCREMENT PRIMARY KEY, 
+	name text);
+
+create table Rating(
+	rID int, 
+	mID int, 
+	stars int, 
+	ratingDate date,
+	primary key (rID, mID));
+
+/* Populate the tables with our data */
+insert into Movie (title, year, director) values('Gone with the Wind', 1939, 'Victor Fleming');
+insert into Movie (title, year, director) values('Star Wars', 1977, 'George Lucas');
+insert into Movie (title, year, director) values('The Sound of Music', 1965, 'Robert Wise');
+insert into Movie (title, year, director) values('E.T.', 1982, 'Steven Spielberg');
+insert into Movie (title, year, director) values('Titanic', 1997, 'James Cameron');
+insert into Movie (title, year, director) values('Snow White', 1937, 'Robert Wise');
+insert into Movie (title, year, director) values('Avatar', 2009, 'James Cameron');
+insert into Movie (title, year, director) values('Raiders of the Lost Ark', 1981, 'Steven Spielberg');
+
+insert into Reviewer (name) values('Sarah Martinez');
+insert into Reviewer (name) values('Daniel Lewis');
+insert into Reviewer (name) values('Brittany Harris');
+insert into Reviewer (name) values('Mike Anderson');
+insert into Reviewer (name) values('Chris Jackson');
+insert into Reviewer (name) values('Elizabeth Thomas');
+insert into Reviewer (name) values('James Cameron');
+insert into Reviewer (name) values('Ashley White');
+
+insert into Rating values(1, 1, 4, '2011-01-22');
+insert into Rating values(2, 6, 4, '2011-05-22');
+insert into Rating values(3, 3, 2, '2011-01-20');
+insert into Rating values(3, 8, 4, '2011-01-12');
+insert into Rating values(4, 1, 3, '2011-01-09');
+insert into Rating values(5, 3, 3, '2011-01-27');
+insert into Rating values(5, 4, 2, '2011-01-22');
+insert into Rating values(5, 8, 4, '2011-09-10');
+insert into Rating values(6, 7, 3, '2011-01-15');
+insert into Rating values(6, 6, 5, '2011-01-19');
+insert into Rating values(7, 7, 5, '2011-01-20');
+insert into Rating values(8, 4, 3, '2011-01-02');
